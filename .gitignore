@@ -1,0 +1,10 @@
+# simulation, synthesis and firmware outputs (make clean removes build/)
+build/
+*.vcd
+__pycache__/
+sw/*.elf
+sw/*.bin
+sw/*.hex
+
+# layout extraction intermediates
+*.ext
