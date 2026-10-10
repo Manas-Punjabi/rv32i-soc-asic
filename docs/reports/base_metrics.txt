@@ -1,0 +1,42 @@
+# Final metrics of the sign-off run (base), as written by OpenROAD-flow-scripts (6_report.json), run 2026-10-07
+# make report FLOW_VARIANT=base:
+wns_ns           1.72226
+tns_ns           0
+hold_ws_ns       0.0297581
+cell_area_um2    1103110.0
+util             0.374088
+power_w          0.0377121
+wirelength_um    2989673
+drc_errors       0
+
+# instance counts (finish):
+finish__design__instance__area 1103110.0
+finish__design__instance__area__class:antenna_cell 1806.73
+finish__design__instance__area__class:clock_buffer 16881.2
+finish__design__instance__area__class:clock_inverter 3234.35
+finish__design__instance__area__class:fill_cell 1833030.0
+finish__design__instance__area__class:inverter 1964.38
+finish__design__instance__area__class:macro 569077
+finish__design__instance__area__class:multi_input_combinational_cell 316452
+finish__design__instance__area__class:sequential_cell 136931
+finish__design__instance__area__class:tap_cell 39492.9
+finish__design__instance__area__class:timing_repair_buffer 17272.8
+finish__design__instance__area__cover 0
+finish__design__instance__area__macros 569077
+finish__design__instance__area__padcells 0
+finish__design__instance__area__stdcell 534036
+finish__design__instance__count 326225
+finish__design__instance__count__class:antenna_cell 722
+finish__design__instance__count__class:clock_buffer 809
+finish__design__instance__count__class:clock_inverter 309
+finish__design__instance__count__class:fill_cell 251140
+finish__design__instance__count__class:inverter 522
+finish__design__instance__count__class:macro 2
+finish__design__instance__count__class:multi_input_combinational_cell 33670
+finish__design__instance__count__class:sequential_cell 5105
+finish__design__instance__count__class:tap_cell 31564
+finish__design__instance__count__class:timing_repair_buffer 2382
+finish__design__instance__count__cover 0
+finish__design__instance__count__macros 2
+finish__design__instance__count__padcells 0
+finish__design__instance__count__stdcell 75083

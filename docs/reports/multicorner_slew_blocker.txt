@@ -1,0 +1,63 @@
+# Why multi-corner optimization is blocked, measured
+#
+# Tool: OpenROAD 26Q3-2276-g4a7cf9b22a (OpenSTA) in the pinned ORFS container.
+# Design: variant base, post-route (results/sky130hd/soc_top/base/6_final.odb).
+# Probe: build/probe_sram_pins.tcl
+#
+# BACKGROUND
+#
+# sky130_sram_2kbyte_1rw1r_32x512_8's liberty declares max_transition 0.04 ns on
+# its input pins. sky130_fd_sc_hd's own default_max_transition is 1.5 ns, so no
+# cell in the library can drive the macro's declared requirement. Upstream
+# defect: VLSIDA/OpenRAM #298.
+#
+# Single-corner runs report this as 44 max-slew violations at tt, all on macro
+# pins. Multi-corner makes repair_design treat it as unsatisfiable and abort:
+#
+#   [ERROR RSZ-0090] Max transition time from SDC is 0.040ns.
+#                    Best achievable transition time is 0.043ns with a load of 0.01pF
+#
+# The obvious workaround is to override the macro’s pin constraint with
+# set_max_transition in this design’s SDC. It does not work: the override is not
+# expressible on pins, and where it is expressible it has no effect. Measured below.
+#
+# RESULT 1 -- set_max_transition does not accept pins or cells
+#
+#   get_cells -hier *u_sram            -> 2 cells
+#                                         u_mem.g_sram.g_bank[0].u_sram
+#                                         u_mem.g_sram.g_bank[1].u_sram
+#   get_pins -of_objects ... input     -> 118 pins (59 per macro x 2)
+#
+#   set_max_transition 1.5 <cells>     -> [ERROR STA-0100] unsupported object type
+#   set_max_transition 1.5 <one pin>   -> [ERROR STA-0100] unsupported object type
+#   set_max_transition 1.5 <ports>     -> accepted
+#   set_max_transition 1.5 [current_design] -> accepted
+#
+# The macro's pins are neither ports of soc_top nor an accepted object type, so
+# a scoped override cannot be written. Only a design-wide statement is possible.
+#
+# RESULT 2 -- an SDC max_transition can only tighten, never loosen
+#
+# Limit reported on u_mem.g_sram.g_bank[0].u_sram/addr1[2]
+# (columns: Pin  Limit  Slew  Slack)
+#
+#   before any override            Limit 0.04   Slew 0.12   Slack -0.08   31 violators
+#   after set_max_transition 1.5   Limit 0.04   Slew 0.12   Slack -0.08   31 violators
+#   after set_max_transition 0.01  Limit 0.01   Slew 0.12   Slack -0.11   36 violators
+#
+# The 0.01 row is the control: it proves the SDC statement is honoured rather
+# than ignored. Timing analysis combines max_transition by taking the most
+# restrictive value, so the liberty's 0.04 always wins over a looser SDC value.
+#
+# CONCLUSION
+#
+# No SDC change can unblock RSZ-0090. The binding constraint lives in the
+# macro's liberty, and only editing that liberty -- vendor characterization
+# data, mounted read-only by scripts/orfs.sh -- could relax it. Multi-corner
+# *analysis* remains available and is reported: docs/sta_base_{tt,ss,ff}.txt,
+# produced by scripts/run_sta.sh, including the corners that fail.
+#
+# Also considered and rejected: loading the macro liberty only at tt and
+# omitting it from SS/FF_LIB_FILES. That leaves the macro with no timing at
+# those corners, so exactly the paths multi-corner is meant to check -- the ones
+# into and out of the macro -- would not be timed at all.

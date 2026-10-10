@@ -1,0 +1,167 @@
+# by-endpoint violation census, trimmed for the repository
+# 943 violating endpoints in total; first 120 listed below
+# Regenerate in full: make sta FLOW_VARIANT=base
+
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 382555, net ANTENNA_602 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 385909, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 395126, net ANTENNA_517 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 397869, net ANTENNA_687 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 397897, net ANTENNA_687 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 397964, net ANTENNA_518 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 402391, net ANTENNA_516 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 407229, net ANTENNA_602 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 411248, net ANTENNA_687 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 434588, net ANTENNA_539 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 456636, net ANTENNA_533 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 459758, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 496860, net ANTENNA_571 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 496889, net ANTENNA_571 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 508663, net ANTENNA_268 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 509286, net ANTENNA_627 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 509634, net ANTENNA_276 not found.
+Warning 1648: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 511034, instance ANTENNA_389:DIODE not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 511045, net ANTENNA_389 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 511081, net ANTENNA_691 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 511170, net ANTENNA_389 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 512494, net ANTENNA_239 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 513530, net ANTENNA_528 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 524031, net ANTENNA_261 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 525111, net ANTENNA_571 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 528548, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 528580, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 528584, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 535952, net ANTENNA_691 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 541801, net ANTENNA_398 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 543032, net ANTENNA_261 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 543033, net ANTENNA_262 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 543034, net ANTENNA_269 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 544451, net ANTENNA_116 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 544464, net ANTENNA_114 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 544766, net ANTENNA_398 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 546046, net ANTENNA_577 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 552809, net ANTENNA_611 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 556064, net ANTENNA_398 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 564921, net ANTENNA_571 not found.
+... 4096 further SPEF warnings (antenna-diode nets/instances not in the netlist) elided
+
+u_mem.g_sram.g_bank[0].u_sram/addr1[7] (sky130_sram_2kbyte_1rw1r_32x512_8)   16.792   27.083  -10.291 (VIOLATED)
+u_core.u_csr.mcycle[55]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.822   25.848   -9.027 (VIOLATED)
+u_mem.g_sram.g_bank[1].u_sram/addr1[7] (sky130_sram_2kbyte_1rw1r_32x512_8)   16.863   25.885   -9.022 (VIOLATED)
+u_core.u_csr.mcycle[46]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.821   25.841   -9.020 (VIOLATED)
+u_core.u_csr.mcycle[45]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.810   25.823   -9.013 (VIOLATED)
+u_core.u_csr.mcycle[47]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.831   25.809   -8.977 (VIOLATED)
+u_core.u_csr.mcycle[63]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.838   25.804   -8.966 (VIOLATED)
+u_core.u_csr.mcycle[53]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.829   25.795   -8.965 (VIOLATED)
+u_mem.g_sram.g_bank[0].u_sram/addr1[2] (sky130_sram_2kbyte_1rw1r_32x512_8)   16.792   25.733   -8.942 (VIOLATED)
+u_core.u_fetch.pc_issue[26]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.783   25.715   -8.932 (VIOLATED)
+u_core.u_csr.mcycle[59]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.826   25.750   -8.924 (VIOLATED)
+u_core.u_csr.mcycle[49]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.824   25.746   -8.922 (VIOLATED)
+u_core.u_csr.mcycle[62]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.836   25.755   -8.919 (VIOLATED)
+u_core.u_csr.mcycle[57]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.817   25.718   -8.901 (VIOLATED)
+u_core.u_csr.mcycle[48]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.830   25.700   -8.870 (VIOLATED)
+u_core.u_csr.mcycle[54]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.837   25.704   -8.867 (VIOLATED)
+u_core.u_csr.mcycle[58]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.831   25.696   -8.865 (VIOLATED)
+u_core.u_csr.mcycle[61]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.838   25.700   -8.862 (VIOLATED)
+u_core.u_csr.mcycle[56]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.832   25.691   -8.858 (VIOLATED)
+u_core.u_csr.mcycle[60]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.840   25.653   -8.813 (VIOLATED)
+u_mem.g_sram.g_bank[0].u_sram/addr1[8] (sky130_sram_2kbyte_1rw1r_32x512_8)   16.792   25.600   -8.808 (VIOLATED)
+u_core.u_csr.minstret[53]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.610   25.258   -8.648 (VIOLATED)
+u_core.u_fetch.pc_issue[31]$_DFFE_PN1P_/D (sky130_fd_sc_hd__dfstp_2)   16.741   25.301   -8.560 (VIOLATED)
+u_core.u_csr.minstret[32]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.582   25.103   -8.521 (VIOLATED)
+u_core.u_csr.minstret[39]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.555   25.075   -8.520 (VIOLATED)
+u_core.u_csr.minstret[62]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.614   25.112   -8.498 (VIOLATED)
+u_core.u_csr.minstret[41]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.602   25.095   -8.493 (VIOLATED)
+u_core.u_csr.minstret[55]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.630   25.115   -8.485 (VIOLATED)
+u_core.u_csr.minstret[61]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.617   25.101   -8.484 (VIOLATED)
+u_core.u_csr.minstret[34]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.572   25.052   -8.480 (VIOLATED)
+u_core.u_csr.minstret[58]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.638   25.112   -8.474 (VIOLATED)
+u_core.u_csr.minstret[43]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.614   25.083   -8.468 (VIOLATED)
+u_core.u_csr.minstret[47]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.626   25.087   -8.461 (VIOLATED)
+u_core.u_fetch.pc_issue[29]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.740   25.197   -8.457 (VIOLATED)
+u_core.u_csr.minstret[51]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.599   25.040   -8.441 (VIOLATED)
+u_core.u_csr.minstret[63]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.625   25.063   -8.439 (VIOLATED)
+u_core.u_csr.minstret[48]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.700   25.134   -8.434 (VIOLATED)
+u_core.u_csr.minstret[45]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.625   25.055   -8.430 (VIOLATED)
+u_core.u_csr.minstret[35]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.573   24.992   -8.419 (VIOLATED)
+u_core.u_csr.minstret[37]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.581   24.996   -8.415 (VIOLATED)
+u_core.u_csr.minstret[57]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.616   25.023   -8.407 (VIOLATED)
+u_core.u_csr.minstret[38]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.608   25.012   -8.404 (VIOLATED)
+u_core.u_fetch.pc_issue[28]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.597   24.994   -8.398 (VIOLATED)
+u_core.u_csr.minstret[56]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.635   25.028   -8.393 (VIOLATED)
+u_core.u_csr.minstret[42]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.626   25.012   -8.387 (VIOLATED)
+u_core.u_fetch.pc_issue[24]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.599   24.973   -8.374 (VIOLATED)
+u_core.u_csr.minstret[49]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.635   25.008   -8.373 (VIOLATED)
+u_core.u_csr.minstret[52]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.636   25.007   -8.370 (VIOLATED)
+u_core.u_fetch.pc_issue[30]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.673   25.012   -8.338 (VIOLATED)
+u_core.u_csr.minstret[40]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.706   25.039   -8.333 (VIOLATED)
+u_core.u_fetch.pc_issue[20]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.636   24.964   -8.328 (VIOLATED)
+u_core.u_fetch.pc_issue[9]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.637   24.953   -8.316 (VIOLATED)
+u_core.u_fetch.pc_issue[27]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.613   24.914   -8.301 (VIOLATED)
+u_core.u_csr.minstret[23]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.768   25.012   -8.244 (VIOLATED)
+u_mem.g_sram.g_bank[1].u_sram/addr1[8] (sky130_sram_2kbyte_1rw1r_32x512_8)   16.863   25.107   -8.244 (VIOLATED)
+u_core.u_fetch.pc_issue[14]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.625   24.833   -8.209 (VIOLATED)
+u_core.u_csr.minstret[18]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.641   24.804   -8.163 (VIOLATED)
+u_core.u_csr.minstret[29]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.658   24.815   -8.158 (VIOLATED)
+u_core.u_csr.minstret[12]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.650   24.800   -8.150 (VIOLATED)
+u_core.u_csr.minstret[13]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.661   24.803   -8.143 (VIOLATED)
+u_core.u_csr.minstret[21]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.803   24.943   -8.140 (VIOLATED)
+u_core.u_csr.minstret[31]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.653   24.787   -8.133 (VIOLATED)
+u_core.u_csr.minstret[27]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.670   24.798   -8.128 (VIOLATED)
+u_core.u_csr.minstret[33]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.775   24.902   -8.127 (VIOLATED)
+u_core.u_csr.minstret[28]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.823   24.947   -8.124 (VIOLATED)
+u_core.u_csr.minstret[6]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.657   24.774   -8.117 (VIOLATED)
+u_core.u_csr.minstret[17]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.654   24.768   -8.115 (VIOLATED)
+u_core.u_fetch.pc_issue[23]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.616   24.729   -8.113 (VIOLATED)
+u_core.u_csr.minstret[15]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.816   24.928   -8.112 (VIOLATED)
+u_core.u_csr.minstret[14]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.669   24.781   -8.112 (VIOLATED)
+u_core.u_csr.minstret[25]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.671   24.778   -8.107 (VIOLATED)
+u_core.u_csr.minstret[60]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.814   24.918   -8.104 (VIOLATED)
+u_core.u_csr.minstret[19]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.657   24.759   -8.102 (VIOLATED)
+u_core.u_csr.mcycle[44]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.665   24.763   -8.098 (VIOLATED)
+u_core.u_csr.minstret[59]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.817   24.910   -8.093 (VIOLATED)
+u_core.u_csr.minstret[24]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.642   24.734   -8.092 (VIOLATED)
+u_core.u_csr.minstret[10]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.640   24.730   -8.090 (VIOLATED)
+u_core.u_csr.mcycle[33]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.613   24.699   -8.086 (VIOLATED)
+u_core.u_csr.minstret[16]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.825   24.898   -8.073 (VIOLATED)
+u_core.u_csr.minstret[20]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.826   24.897   -8.072 (VIOLATED)
+u_core.u_csr.minstret[22]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.682   24.749   -8.067 (VIOLATED)
+u_core.u_csr.minstret[7]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.638   24.704   -8.066 (VIOLATED)
+u_core.u_csr.minstret[9]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.670   24.732   -8.061 (VIOLATED)
+u_core.u_csr.minstret[11]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.671   24.731   -8.060 (VIOLATED)
+u_core.u_csr.minstret[30]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.836   24.895   -8.059 (VIOLATED)
+u_core.u_csr.minstret[26]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.687   24.746   -8.058 (VIOLATED)
+u_core.u_fetch.pc_issue[22]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.631   24.684   -8.053 (VIOLATED)
+u_core.u_csr.minstret[8]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.824   24.865   -8.040 (VIOLATED)
+u_core.u_fetch.pc_issue[18]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.648   24.687   -8.039 (VIOLATED)
+u_core.u_csr.mcycle[32]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.605   24.635   -8.030 (VIOLATED)
+u_core.u_fetch.pc_issue[16]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.655   24.655   -8.000 (VIOLATED)
+u_core.u_csr.mcycle[36]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.770   24.760   -7.990 (VIOLATED)
+u_mem.g_sram.g_bank[0].u_sram/addr1[5] (sky130_sram_2kbyte_1rw1r_32x512_8)   16.792   24.775   -7.983 (VIOLATED)
+u_core.u_csr.minstret[44]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.683   24.662   -7.980 (VIOLATED)
+u_mem.g_sram.g_bank[0].u_sram/addr1[6] (sky130_sram_2kbyte_1rw1r_32x512_8)   16.792   24.770   -7.978 (VIOLATED)
+u_core.u_csr.mcycle[41]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.622   24.599   -7.977 (VIOLATED)
+u_core.u_csr.mcycle[34]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.773   24.735   -7.963 (VIOLATED)
+u_core.u_fetch.pc_issue[21]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.782   24.719   -7.937 (VIOLATED)
+u_core.u_fetch.pc_issue[25]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.757   24.685   -7.928 (VIOLATED)
+u_core.u_csr.mcycle[35]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.778   24.703   -7.925 (VIOLATED)
+u_core.u_fetch.s1_pc[9]$_DFFE_PP_/D (sky130_fd_sc_hd__edfxtp_1)   15.967   23.886   -7.919 (VIOLATED)
+u_core.u_csr.mcycle[42]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.774   24.690   -7.915 (VIOLATED)
+u_core.u_csr.minstret[36]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.644   24.514   -7.870 (VIOLATED)
+u_core.u_csr.minstret[50]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.663   24.523   -7.860 (VIOLATED)
+u_core.u_fetch.pc_issue[12]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.634   24.490   -7.855 (VIOLATED)
+u_core.u_csr.mcycle[40]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.789   24.638   -7.848 (VIOLATED)
+u_core.u_csr.minstret[54]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.687   24.529   -7.842 (VIOLATED)
+u_core.u_csr.minstret[46]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.665   24.505   -7.840 (VIOLATED)
+u_core.u_fetch.pc_issue[17]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.630   24.470   -7.840 (VIOLATED)
+u_core.u_csr.mcycle[37]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.788   24.622   -7.834 (VIOLATED)
+u_core.u_fetch.pc_issue[19]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.636   24.469   -7.832 (VIOLATED)
+u_core.u_fetch.pc_issue[13]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.636   24.454   -7.819 (VIOLATED)
+u_core.u_csr.mcycle[39]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.787   24.604   -7.817 (VIOLATED)
+u_core.u_csr.mcycle[43]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.675   24.492   -7.817 (VIOLATED)
+u_core.u_csr.mcycle[38]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.693   24.464   -7.771 (VIOLATED)
+u_core.u_fetch.pc_issue[15]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.647   24.373   -7.726 (VIOLATED)
+u_core.u_csr.mcycle[18]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.619   24.325   -7.706 (VIOLATED)
+u_core.u_csr.mcycle[22]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.655   24.333   -7.678 (VIOLATED)
+u_core.u_csr.mcycle[20]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.803   24.478   -7.675 (VIOLATED)
+u_core.u_csr.mcycle[12]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)   16.637   24.311   -7.673 (VIOLATED)
+... 823 further violating endpoints elided (make sta FLOW_VARIANT=base)

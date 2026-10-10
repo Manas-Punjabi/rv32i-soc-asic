@@ -1,0 +1,10 @@
+# Magic full-deck DRC (drc(full), euclidean) on the routed sign-off run, run 2026-10-07
+# The SRAM macros are held as the PDK’s abstract view (pins and obstructions, no devices),
+# so the check covers this design’s own layout and its connections to the macro pins.
+# macro abstract's own error count: 0
+# subcells under sky130_sram_2kbyte_1rw1r_32x512_8: 0 (0 = abstract held)
+#
+# error boxes, all rules (sum of the census): 0
+
+counts by rule (descending):
+  (none)

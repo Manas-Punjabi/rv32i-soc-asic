@@ -1,0 +1,167 @@
+# by-endpoint violation census, trimmed for the repository
+# 256 violating endpoints in total; first 120 listed below
+# Regenerate in full: make sta FLOW_VARIANT=base
+
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 382555, net ANTENNA_602 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 385909, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 395126, net ANTENNA_517 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 397869, net ANTENNA_687 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 397897, net ANTENNA_687 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 397964, net ANTENNA_518 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 402391, net ANTENNA_516 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 407229, net ANTENNA_602 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 411248, net ANTENNA_687 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 434588, net ANTENNA_539 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 456636, net ANTENNA_533 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 459758, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 496860, net ANTENNA_571 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 496889, net ANTENNA_571 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 508663, net ANTENNA_268 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 509286, net ANTENNA_627 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 509634, net ANTENNA_276 not found.
+Warning 1648: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 511034, instance ANTENNA_389:DIODE not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 511045, net ANTENNA_389 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 511081, net ANTENNA_691 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 511170, net ANTENNA_389 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 512494, net ANTENNA_239 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 513530, net ANTENNA_528 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 524031, net ANTENNA_261 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 525111, net ANTENNA_571 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 528548, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 528580, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 528584, net ANTENNA_506 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 535952, net ANTENNA_691 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 541801, net ANTENNA_398 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 543032, net ANTENNA_261 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 543033, net ANTENNA_262 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 543034, net ANTENNA_269 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 544451, net ANTENNA_116 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 544464, net ANTENNA_114 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 544766, net ANTENNA_398 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 546046, net ANTENNA_577 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 552809, net ANTENNA_611 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 556064, net ANTENNA_398 not found.
+Warning 1650: /orfs_work/results/sky130hd/soc_top/base/6_final.spef line 564921, net ANTENNA_571 not found.
+... 4096 further SPEF warnings (antenna-diode nets/instances not in the netlist) elided
+
+u_accel.u_accel.g_pe[3].u_pe.b_q[1]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.137    1.059   -0.078 (VIOLATED)
+u_accel.u_accel.tag_sr[4]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.102    1.053   -0.049 (VIOLATED)
+u_accel.u_accel.tag_sr[5]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.100    1.051   -0.049 (VIOLATED)
+u_accel.u_accel.tag_sr[6]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.100    1.051   -0.049 (VIOLATED)
+u_accel.u_accel.tag_sr[3]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.100    1.054   -0.045 (VIOLATED)
+u_core.u_fetch.s2_pc[7]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.126    1.083   -0.042 (VIOLATED)
+u_core.u_fetch.s2_pc[11]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.084   -0.041 (VIOLATED)
+u_accel.u_accel.tag_sr[7]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.099    1.062   -0.036 (VIOLATED)
+u_core.u_fetch.s2_pc[1]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.115    1.080   -0.035 (VIOLATED)
+u_core.u_fetch.s2_pc[5]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.126    1.092   -0.034 (VIOLATED)
+u_core.u_fetch.s2_pc[9]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.126    1.092   -0.034 (VIOLATED)
+u_core.u_fetch.s2_pc[2]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.093   -0.033 (VIOLATED)
+u_core.u_fetch.s2_pc[10]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.126    1.093   -0.032 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.v_sr[2]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)    1.098    1.066   -0.032 (VIOLATED)
+u_core.u_fetch.s2_pc[8]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.093   -0.032 (VIOLATED)
+u_core.u_fetch.s2_pc[4]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.122    1.090   -0.031 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.v_sr[1]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)    1.098    1.068   -0.031 (VIOLATED)
+u_core.u_fetch.s2_pc[29]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.126    1.095   -0.030 (VIOLATED)
+rst_sync[1]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_2)    1.126    1.095   -0.030 (VIOLATED)
+u_core.u_fetch.s2_pc[3]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.126    1.099   -0.027 (VIOLATED)
+u_gpio.in_sync1[4]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)    1.122    1.096   -0.026 (VIOLATED)
+u_core.u_fetch.s2_pc[0]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.121    1.095   -0.026 (VIOLATED)
+u_core.u_fetch.s2_pc[24]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.112    1.087   -0.025 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[118]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.096   -0.023 (VIOLATED)
+u_core.u_fetch.s2_pc[16]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.102   -0.023 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[81]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.097   -0.022 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[35]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.136    1.114   -0.022 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[65]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.131    1.109   -0.022 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[110]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.124    1.103   -0.021 (VIOLATED)
+u_accel.u_accel.tag_sr[0]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.100    1.079   -0.021 (VIOLATED)
+u_gpio.in_sync1[3]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)    1.119    1.098   -0.020 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[67]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.130    1.110   -0.020 (VIOLATED)
+u_core.u_fetch.s2_pc[26]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.111    1.092   -0.020 (VIOLATED)
+u_gpio.in_sync1[7]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)    1.122    1.103   -0.019 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[92]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.106   -0.019 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[70]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.098   -0.019 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[72]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.122    1.104   -0.018 (VIOLATED)
+u_core.u_fetch.s2_pc[18]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.113    1.096   -0.017 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[0]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.140    1.124   -0.016 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[82]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.103   -0.016 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[78]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.120    1.103   -0.016 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[80]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.112    1.096   -0.016 (VIOLATED)
+u_core.u_fetch.s2_pc[30]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.109   -0.016 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[0]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.101   -0.016 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[56]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.088    1.072   -0.016 (VIOLATED)
+u_gpio.in_sync1[0]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)    1.118    1.103   -0.016 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[69]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.140    1.124   -0.016 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[15]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.118    1.103   -0.015 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[31]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.124    1.108   -0.015 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[95]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.140    1.125   -0.015 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[117]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.111    1.096   -0.015 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[87]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.112    1.097   -0.015 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[64]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.104   -0.015 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[97]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.128    1.113   -0.015 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[109]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.123    1.108   -0.015 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[121]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.115    1.101   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[111]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.103   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[84]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.114    1.100   -0.014 (VIOLATED)
+u_core.u_fetch.s2_pc[25]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.112    1.098   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[69]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.111   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[30]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.126    1.112   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[101]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.120    1.106   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[99]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.124    1.110   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[115]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.103   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[59]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.087    1.074   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[90]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.121    1.108   -0.014 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[72]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.129    1.115   -0.013 (VIOLATED)
+u_gpio.in_sync1[2]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)    1.118    1.105   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[62]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.088    1.074   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[114]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.118    1.105   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[66]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.129    1.116   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[95]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.115    1.102   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[61]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.088    1.075   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[24]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.105   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[9]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.072    1.060   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[17]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.069    1.056   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[86]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.106   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[64]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.113   -0.013 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[22]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.104   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[67]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.137    1.125   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[102]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)    1.119    1.106   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[116]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.118    1.106   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[94]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.107   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[19]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.107   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[36]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.124    1.111   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[8]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.138    1.126   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[64]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.133    1.121   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[63]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.087    1.075   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[77]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.113   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[103]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)    1.120    1.109   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[64]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.138    1.126   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[66]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)    1.137    1.125   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[15]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.068    1.057   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[121]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.105   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[27]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.107   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[66]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.127    1.116   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[28]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.107   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[68]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.121    1.110   -0.012 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[96]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.125    1.113   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[88]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.114    1.102   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[106]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.120    1.109   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[25]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.119    1.107   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[99]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)    1.115    1.104   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[114]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.123    1.112   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[79]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.114    1.103   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[3].u_pe.b_q[37]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)    1.113    1.102   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[93]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.138    1.127   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[96]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.122    1.111   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[113]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.113    1.102   -0.011 (VIOLATED)
+u_gpio.in_sync1[5]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)    1.118    1.107   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[29]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.107   -0.011 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[110]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.120    1.109   -0.010 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[60]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.089    1.079   -0.010 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[115]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.118    1.108   -0.010 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[125]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.115    1.105   -0.010 (VIOLATED)
+u_accel.u_accel.g_pe[2].u_pe.b_q[18]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.107   -0.010 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[116]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.118    1.108   -0.010 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[108]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.120    1.110   -0.010 (VIOLATED)
+u_accel.u_accel.g_pe[0].u_pe.b_q[117]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.117    1.107   -0.010 (VIOLATED)
+u_accel.u_accel.g_pe[1].u_pe.b_q[11]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_1)    1.063    1.054   -0.010 (VIOLATED)
+... 136 further violating endpoints elided (make sta FLOW_VARIANT=base)

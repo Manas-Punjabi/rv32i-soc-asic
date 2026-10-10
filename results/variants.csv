@@ -1,0 +1,5 @@
+variant,description,wns_ns,tns_ns,hold_ws_ns,cell_area_um2,util,power_w,wirelength_um,drc_errors,sequential_cells,clock_gate_cells
+base,"sign-off run, 15 ns",1.72226,0,0.0297581,1103110.0,0.374088,0.0377121,2989673,0,5105,0
+p15p0_u35_sram1024_cg,sign-off setup with clock gating inferred by the flow,1.91424,0,-0.0433995,1080200.0,0.379109,0.0234008,2941069,0,5105,78
+dft_noscan,"scan pair, without scan (netlist synthesized outside the flow)",0.607173,0,-0.0436102,1106300.0,0.310214,0.0241456,3163912,0,5092,89
+dft_scan,"scan pair, with 26 scan chains",0.478421,0,-0.00208944,1146150.0,0.311445,0.0383566,3586330,0,5092,89

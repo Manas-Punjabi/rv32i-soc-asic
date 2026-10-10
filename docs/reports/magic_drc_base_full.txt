@@ -1,0 +1,40 @@
+# Magic full-deck DRC (drc(full), euclidean) on the routed sign-off run, macro interiors included
+# For comparison only: the open DRC deck is not valid inside the SRAM bitcell arrays, and the
+# two vendor macros account for the total (see magic_drc_macro_*.txt and docs/implementation.md).
+# macro abstract's own error count: n/a
+# subcells under sky130_sram_2kbyte_1rw1r_32x512_8: 18 (0 = abstract held)
+#
+# error boxes, all rules (sum of the census): 11153128
+# Magic’s own drc list count, which counts a different unit: 4469770
+
+counts by rule (descending):
+     1218768  N-Diffusion spacing to N-well < 0.34um (diff/tap.9)
+      915451  Local interconnect width < 0.17um (li.1)
+      744116  poly overlap of poly contact < 0.05um (licon.8)
+      737408  poly overhang of SRAM core transistor < 0.11um (poly.8)
+      732378  Diffusion width < 0.15um (diff/tap.1)
+      709310  N-diffusion overlap of N-diffusion contact < 0.04um (licon.5a)
+      683031  poly contact spacing to diffusion < 0.19um (licon.14)
+      642330  Via1 width < 0.26um (via.1a + 2 * via.4a)
+      538736  poly spacing to Diffusion < 0.075um (poly.4)
+      406132  N-diffusion contact width < 0.17um (licon.1)
+      371036  Local interconnect spacing < 0.17um (li.3)
+      366384  N-well overlap of N-tap < 0.18um (diff/tap.10)
+      360189  poly contact width        < 0.17um (licon.1)
+      338528  Metal1 overlap of local interconnect contact < 0.03um (met1.4)
+      272464  poly overlap of poly contact < 0.08um in one direction (licon.8a)
+      270400  P-tap overlap of P-tap contact < 0.12um in one direction (licon.7)
+      266272  Core local interconnect spacing < 0.14um (li.c2)
+      253500  Diffusion contact to SRAM gate < 0.04um (licon.11)
+      200720  This layer can't abut or partially overlap between subcells
+      199964  P-diffusion overlap of P-diffusion contact < 0.04um (licon.5a)
+      169000  nFET cannot abut P-diffusion (diff/tap.3)
+      167066  P-diffusion contact width < 0.17um (licon.1)
+      133664  Local interconnect overlap of diffusion contact < 0.08um in one direction (li.5)
+      133136  P-Transistor in SRAM core width < 0.14um (diff/tap.2)
+      118429  poly spacing < 0.21um (poly.2)
+      101400  P-tap minimum area < 0.07011um^2 (psd.10b)
+       99852  N-tap contact width     < 0.17um (licon.1)
+        2080  N-diffusion overlap of N-diffusion contact < 0.06um in one direction (licon.5c)
+        1040  N-Diffusion overhang of nFET < 0.25um (poly.7)
+         344  Can't overlap those layers

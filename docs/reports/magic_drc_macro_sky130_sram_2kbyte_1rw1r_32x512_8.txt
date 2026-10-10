@@ -1,0 +1,35 @@
+# Magic sign-off DRC on sky130_sram_2kbyte_1rw1r_32x512_8 as delivered in the PDK
+# drc style drc(full), drc euclidean on -- nothing of this project is in this layout
+
+TOTAL: 5579161
+
+      606985  N-Diffusion spacing to N-well < 0.34um (diff/tap.9)
+      458635  Local interconnect width < 0.17um (li.1)
+      372578  poly overlap of poly contact < 0.05um (licon.8)
+      368960  poly overhang of SRAM core transistor < 0.11um (poly.8)
+      366254  Diffusion width < 0.15um (diff/tap.1)
+      354135  N-diffusion overlap of N-diffusion contact < 0.04um (licon.5a)
+      342101  poly contact spacing to diffusion < 0.19um (licon.14)
+      321295  Via1 width < 0.26um (via.1a + 2 * via.4a)
+      269368  poly spacing to Diffusion < 0.075um (poly.4)
+      203456  N-diffusion contact width < 0.17um (licon.1)
+      185648  Local interconnect spacing < 0.17um (li.3)
+      183452  N-well overlap of N-tap < 0.18um (diff/tap.10)
+      180744  poly contact width        < 0.17um (licon.1)
+      169264  Metal1 overlap of local interconnect contact < 0.03um (met1.4)
+      136236  poly overlap of poly contact < 0.08um in one direction (licon.8a)
+      135200  P-tap overlap of P-tap contact < 0.12um in one direction (licon.7)
+      133396  Core local interconnect spacing < 0.14um (li.c2)
+      127010  Diffusion contact to SRAM gate < 0.04um (licon.11)
+      100620  This layer can't abut or partially overlap between subcells
+      100112  P-diffusion overlap of P-diffusion contact < 0.04um (licon.5a)
+       84695  nFET cannot abut P-diffusion (diff/tap.3)
+       83598  P-diffusion contact width < 0.17um (licon.1)
+       66962  Local interconnect overlap of diffusion contact < 0.08um in one direction (li.5)
+       66568  P-Transistor in SRAM core width < 0.14um (diff/tap.2)
+       59215  poly spacing < 0.21um (poly.2)
+       50830  P-tap minimum area < 0.07011um^2 (psd.10b)
+       50121  N-tap contact width     < 0.17um (licon.1)
+        1040  N-diffusion overlap of N-diffusion contact < 0.06um in one direction (licon.5c)
+         522  N-Diffusion overhang of nFET < 0.25um (poly.7)
+         161  Can't overlap those layers

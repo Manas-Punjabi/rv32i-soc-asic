@@ -1,0 +1,46 @@
+# Layout versus schematic (Netgen 1.5.323), routed sign-off run, run 2026-10-07.
+# Layout side: transistor netlist extracted by Magic from the final GDS.
+# Schematic side: gate netlist with power pins, written by OpenROAD from the final database.
+# The SRAM macro is held as the PDK’s abstract view (131 ports, no devices), so it is compared
+# as a black box: its instances and connectivity, not its interior.
+
+sky130_fd_sc_hd__nand3_2 (1)               |sky130_fd_sc_hd__nand3_2 (1)               
+sky130_fd_sc_hd__or3b_1 (1)                |sky130_fd_sc_hd__or3b_1 (1)                
+sky130_fd_sc_hd__o32ai_2 (2)               |sky130_fd_sc_hd__o32ai_2 (2)               
+sky130_fd_sc_hd__nor3b_2 (2)               |sky130_fd_sc_hd__nor3b_2 (2)               
+Number of devices: 43039                   |Number of devices: 43039                   
+Number of nets: 52041                      |Number of nets: 52041                      
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: soc_top                         |Circuit 2: soc_top                         
+-------------------------------------------|-------------------------------------------
+rst_n                                      |rst_n                                      
+gpio_in[4]                                 |gpio_in[4]                                 
+uart_rx                                    |uart_rx                                    
+gpio_in[7]                                 |gpio_in[7]                                 
+gpio_in[0]                                 |gpio_in[0]                                 
+gpio_in[2]                                 |gpio_in[2]                                 
+gpio_in[3]                                 |gpio_in[3]                                 
+gpio_in[5]                                 |gpio_in[5]                                 
+gpio_in[6]                                 |gpio_in[6]                                 
+gpio_in[1]                                 |gpio_in[1]                                 
+gpio_out[4]                                |gpio_out[4]                                
+gpio_out[0]                                |gpio_out[0]                                
+gpio_out[5]                                |gpio_out[5]                                
+gpio_out[7]                                |gpio_out[7]                                
+gpio_out[6]                                |gpio_out[6]                                
+gpio_out[1]                                |gpio_out[1]                                
+gpio_out[2]                                |gpio_out[2]                                
+gpio_out[3]                                |gpio_out[3]                                
+uart_tx                                    |uart_tx                                    
+clk                                        |clk                                        
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes soc_top and soc_top are equivalent.
+
+Final result: Circuits match uniquely.
+.
