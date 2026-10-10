@@ -1,0 +1,22 @@
+name: verify
+
+on: [push, pull_request]
+
+jobs:
+  rtl-checks:
+    runs-on: ubuntu-24.04
+    env:
+      RISCV_TESTS: ${{ github.workspace }}/riscv-tests
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Icarus Verilog, Verilator and the RISC-V GCC toolchain
+        run: sudo apt-get update && sudo apt-get install -y iverilog verilator gcc-riscv64-unknown-elf
+      - name: Fetch riscv-tests (pinned to the commit used for the published results)
+        run: |
+          git clone https://github.com/riscv-software-src/riscv-tests "$RISCV_TESTS"
+          git -C "$RISCV_TESTS" checkout d44511022b356a341a2430cfd65f894b77c35f36
+          git -C "$RISCV_TESTS" submodule update --init env
+      # Everything in make verify except sim-mem, which needs the SRAM macro model
+      # from the SKY130 PDK and is run locally.
+      - name: Lint, peripheral tests, ISA tests on the core and the SoC, benchmark
+        run: make lint sim-periph sim-core sim-soc bench-check
